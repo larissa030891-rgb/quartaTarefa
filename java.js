@@ -25,12 +25,12 @@ function Chutar () {
         }
         else if (recolherPalpite > numero){
         tentativa +=1
-        document.getElementById('dica').textContent = 'Tente um número menor. ' + 'Você usou ' + tentativa +'tentativa(s)';
+        document.getElementById('dica').textContent = 'Tente um número menor. ' + 'Você usou ' + tentativa +' tentativa(s)';
         document.getElementById('tentativas').textContent = tentativa;
         }
         else if (recolherPalpite < numero){
         tentativa +=1
-        document.getElementById('dica').textContent = 'Tente um número maior. ' + 'Você usou ' + tentativa +'tentativa(s)';
+        document.getElementById('dica').textContent = 'Tente um número maior. ' + 'Você usou ' + tentativa +' tentativa(s)';
         document.getElementById('tentativas').textContent = tentativa;
         }
 

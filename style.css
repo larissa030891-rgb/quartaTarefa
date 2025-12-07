@@ -4,7 +4,44 @@
 }
 
 body{
-    
+    background-color: rgb(133, 133, 174);
     font-family: Arial, Helvetica, sans-serif;
-
+    color: rgb(7, 7, 82);
 }
+
+.caixa {
+    width: 300px;              /* largura da caixinha */
+    padding: 20px;           /* espaço interno */
+    border: 2px solid #333;  /* borda */
+    border-radius: 10px;     /* cantos arredondados */
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);  /* sombra suave */
+    background-color: white; /* cor de fundo */
+    text-align: center;
+    margin: 20px auto;       /* centraliza na tela */
+}
+
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+p{
+    text-align: center;
+    padding: 50px;
+    font-kerning: normal;
+}    
+
+button{
+    background-color: rgb(7, 7, 82);
+    color: white;
+    font-size: 14px;
+    
+}
+
+button:hover{
+    background-color: rgb(4, 84, 17);
+    color: white;
+}
+
+
+
