@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <div>class = "caixa">
+        <h1>Jogo de adivinhação</h1>
+        <p>O objetivo desse jogo é adivinhar qual número foi sorteado pelo programa. Você tem 10 tentativas para acertar o número e receberá dicas.</p>
+        <label for="number">Digite o seu palpite: </label>
+        <input type="number" id="palpite">
+        <button onclick="Chutar()">Chutar</button>
+        <h2>Tentativa: </h2>
+        <h2 id="tentativas"></h2>
+        <p id="resultado"></p>
+        <p id="dica"></p>
+
+    </div>
+
+</body>
+</html>
